@@ -9,37 +9,29 @@ html, body {
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  height: 100%;
 }
 
 .frame .overlap-group-wrapper {
   background-color: #181e27;
   overflow: hidden;
-  width: 1707px;
-  height: 100%;
+  width: 1728px;
+  height: 1117px;
 }
 
 .frame .overlap-group {
   position: relative;
-  width: 1748px;
-  height: 100%;
+  width: 1764px;
+  height: 1097px;
+  top: 20px;
 }
 
 .frame .rectangle {
   position: absolute;
-  width: 1707px;
-  height: 220px;
-  top: 771px;
+  width: 1728px;
+  height: 307px;
+  top: 790px;
   left: 0;
   background-color: #e5e76d;
-}
-
-.frame .PORTFOLIO {
-  position: absolute;
-  width: 1547px;
-  height: 210px;
-  top: 569px;
-  left: 20px;
 }
 
 .frame .div {
@@ -51,16 +43,13 @@ html, body {
   border-radius: 10px 10px 0px 0px;
   border: 3px solid;
   border-color: #e6e86e;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .frame .text-wrapper {
   position: absolute;
   width: 398px;
-  top: 762px;
-  left: 1350px;
+  top: 823px;
+  left: 1366px;
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
   color: #181f28;
@@ -70,18 +59,34 @@ html, body {
 }
 
 .frame .polygon {
+  top: 876px;
   position: absolute;
   width: 71px;
   height: 62px;
-  top: 825px;
+  left: 21px;
+}
+
+.frame .img {
+  top: 936px;
+  position: absolute;
+  width: 71px;
+  height: 62px;
+  left: 21px;
+}
+
+.frame .polygon-2 {
+  top: 996px;
+  position: absolute;
+  width: 71px;
+  height: 62px;
   left: 21px;
 }
 
 .frame .rectangle-2 {
   position: absolute;
   width: 1667px;
-  height: 740px;
-  top: 46px;
+  height: 750px;
+  top: 40px;
   left: 20px;
   border-top-width: 3px;
   border-top-style: solid;
@@ -93,12 +98,36 @@ html, body {
 }
 
 .frame .text-wrapper-2 {
-  position: relative;
-  width: auto;
+  position: absolute;
+  width: 206px;
+  top: 13px;
+  left: 31px;
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
   color: #e6e86e;
-  font-size: 16px;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .line {
+  position: absolute;
+  width: 3px;
+  height: 626px;
+  top: 471px;
+  left: 20px;
+}
+
+.frame .text-wrapper-3 {
+  position: absolute;
+  width: 1552px;
+  top: 547px;
+  left: 9px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #e6e86e;
+  font-size: 250px;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
