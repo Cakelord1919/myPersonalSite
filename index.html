@@ -11,52 +11,58 @@
 <body class="bg-[#181e27] font-[inter]">
 
   <!-- Small screen fallback -->
-  <div class="block 2xl:hidden origin-bottom-left text-white text-center py-20 px-8">
+  <div class="block 2xl:hidden text-white text-center py-20 px-8">
     This site is designed for large screens (≥1536px). Please view on a desktop.
   </div>
 
   <!-- 2xl-only layout -->
-  <div class="hidden 2xl:flex origin-bottom-left justify-center w-full min-h-screen relative overflow-hidden">
-    <div class="w-full h-full relative">
+  <div class="hidden 2xl:block">
+    <main class="w-full max-w-[100vw] overflow-x-hidden">
 
-      <!-- Big central title: PORTFOLIO -->
-      <div class="absolute origin-bottom-left inset-x-0 top-[58vh] flex left-[5px] z-10">
-        <h1 class="text-[26vh] origin-bottom-left font-extrabold text-[#e6e86e] whitespace-nowrap leading-none">
+      <!-- HERO Section -->
+      <section class="relative h-[78vh] w-full flex flex-col justify-center items-start px-[5vw] pt-[15vh]">
+        <!-- Left line -->
+        <div class="absolute left-[1vw] top-[40vh] w-[0.2vw] h-[45vh] bg-[#e6e86e] z-10"></div>
+
+        <!-- Top badge border -->
+        <div class="absolute top-0 left-[1vw] w-[12vw] h-[5.3vh] rounded-t-[10px] border-[0.3vh] border-[#e6e86e] flex items-center z-10"></div>
+
+        <!-- Your name -->
+        <div class="absolute top-[1vh] left-[2vw] text-[1vw] font-extrabold text-[#e6e86e] whitespace-nowrap z-30">
+          Eric Gabriel Cheng Li
+        </div>
+
+        <!-- Framed border -->
+        <div class="absolute top-[5vh] left-[1vw] w-[97vw] h-[80vh] border-t-[0.3vh] border-r-[0.3vh] border-l-[0.3vh] border-[#e6e86e] z-0"></div>
+
+        <!-- Big Portfolio Title -->
+        <h1 class="text-[26vh] font-extrabold text-[#e6e86e] leading-none z-20 mt-[47vh] ml-[-4.7vw]">
           PORTFOLIO
         </h1>
-      </div>
+      </section>
 
-      <!-- Left vertical line -->
-      <div class="absolute left-[1vw] top-[40vh] w-[0.2vw] h-[45vh] bg-[#e6e86e] z-20"></div>
-
-      <!-- Top left badge -->
-      <div class="absolute top-0 left-[1vw] w-[12vw] h-[5.3vh] rounded-t-[10px] border-[0.3vh] border-[#e6e86e] flex items-center"></div>
-
-      <!-- Your name -->
-      <div class="absolute top-[1vh] left-[2vw] text-[1vw] font-extrabold text-[#e6e86e] whitespace-nowrap z-30">
-        Eric Gabriel Cheng Li
-      </div>
-
-
-
-      <!-- Framed border rectangle (main content zone) -->
-      <div class="absolute top-[5vh] left-[1vw] w-[98vw] h-[80vh]  border-t-[0.3vh] border-r-[0.3vh] border-l-[0.3vh] border-[#e6e86e] z-10"></div>
-
-      <!-- Bottom yellow bar with right-side text -->
-      <div class="absolute top-[80vh] inset-x-0 flex justify-center">
-        <div class="w-full max-w-[100%] h-[22vh] bg-[#e5e76d] flex justify-end p-[32px] pr-[4vw]">
-          <div class="text-[1.2vw]  font-extrabold text-[#181f28] whitespace-nowrap">
-            My Design Portfolio
-          </div>
+      <!-- Yellow Bottom Bar -->
+      <section class="bg-[#e5e76d] w-full h-[22vh] flex justify-end pr-[4vw]">
+        <div class="text-[1.2vw] font-extrabold text-[#181f28] mt-[4vh]">
+          My Design Portfolio
         </div>
-      </div>
-      
-            <!-- 3 yellow polygons on bottom-left -->
+      </section>
+
+      <!-- Polygon decorations -->
       <img class="absolute w-[5.5vh] h-[90px] top-[85vh] left-[1.5vw]" src="img/Polygon%201.svg" />
       <img class="absolute w-[5.5vh] h-[90px] top-[81vh] left-[1.5vw]" src="img/Polygon%201.svg" />
       <img class="absolute w-[5.5vh] h-[90px] top-[89vh] left-[1.5vw]" src="img/Polygon%201.svg" />
 
-    </div>
+      <!-- ABOUT ME Section -->
+      <section id="about" class="w-full min-h-screen px-[10vw] py-[12vh] bg-[#181e27] text-[#e6e86e]">
+        <h2 class="text-[3vw] font-extrabold mb-6">About Me</h2>
+        <p class="text-[1.2vw] leading-relaxed max-w-[60ch]">
+          I'm a designer passionate about typography, UI/UX, and game design.
+          My work merges user needs with aesthetic intuition to deliver engaging and thoughtful experiences.
+        </p>
+      </section>
+
+    </main>
   </div>
 </body>
 </html>

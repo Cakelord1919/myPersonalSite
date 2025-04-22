@@ -1,5 +1,5 @@
 html, body {
-  height: 100%;
+  height: auto;
   margin: 0; /* 移除默认边距 */
   padding: 0;
 }
