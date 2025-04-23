@@ -66,10 +66,10 @@
         
         <div class="pl-[1vw] pr-[1vw] grid grid-cols-[2fr_3fr] min-h-[89.5vh]">
         <!-- 左侧图片 -->
-        <img class="p-[1vw] border-solid border-r-[0.2vw] border-[#e5e76d]" src="img/posta.png"></img>
+        <img class="p-[0.75vw]  border-solid border-[0.2vw] border-[#e5e76d]" src="img/posta.png"></img>
 
         <!-- 右侧区域 -->
-        <div class="grid grid-rows-[auto_auto_1fr] gap-4">
+        <div class="grid grid-rows-[auto_auto_1fr] gap-4 border-solid border-[0.2vw] border-l-[0] border-[#e5e76d]">
 
           <!-- 1. 顶部：标题 + 链接 -->
             <div class="flex border-solid border-b-[0.2vw] border-[#e5e76d]">
@@ -85,18 +85,18 @@
             </div>
 
           <!-- 2. 自我介绍 -->
-          <div class="text-[#fdfb91] text-[1.5vw] font-bold leading-relaxed px-4">
+          <div class="text-[#fdfb91] text-[2vw] font-bold leading-relaxed px-4 pb-[4vh] border-solid border-b-[0.2vw] border-[#e5e76d]">
             Greetings, I’m a Designer with a deep passion for typography and UI/UX design. My work range covers logo, layout, illustration, game design and branding. I highly prioritize work ethic, creativity and customer needs in my work.
           </div>
 
           <!-- 3. 技能图标区域（嵌套 Grid） -->
-          <div class="grid grid-cols-3 gap-4 px-4 pb-4">
+          <div class="grid grid-cols-3 gap-4 px-4 pt-[1vh]">
 
             <!-- 第一列：HTML, JS, CSS -->
-            <div class="grid gap-4 place-items-center">
-              <img src="html-icon.svg" />
-              <img src="js-icon.svg" />
-              <img src="css-icon.svg" />
+            <div class="grid">
+              <img class="w-[15vh]" src="img/html5-icon.svg" />
+              <img class="justify-self-end w-[15vh]" src="img/javascript-icon.svg" />
+              <img class="w-[15vh]" src="img/css-icon.svg" />
             </div>
 
             <!-- 第二列：Ai Ae Ps 样式（上下连线） -->
@@ -118,8 +118,7 @@
         </div>
 
         
-        <!-- Bottom line -->
-        <div class="absolute left-[1vw] top-[100vh] w-[178vh] h-[0.3vh] bg-[#e6e86e] mt-[54.5vw] z-10"></div>
+
 
       </section>
 
