@@ -21,8 +21,6 @@
 
       <!-- HERO Section -->
       <section class="relative h-[78vh] w-full flex flex-col justify-center items-start px-[5vw] pt-[15vh]">
-        <!-- Left line -->
-        <div class="absolute left-[1vw] top-[40vh] w-[0.2vw] h-[45vh] bg-[#e6e86e] z-10"></div>
 
         <!-- Top badge border -->
         <div class="absolute top-0 left-[1vw] w-[12vw] h-[5.3vh] rounded-t-[10px] border-[0.3vh] border-[#e6e86e] flex items-center z-10"></div>
@@ -42,8 +40,8 @@
       </section>
 
       <!-- Yellow Bottom Bar -->
-      <section class="bg-[#e5e76d] w-full h-[22vh] flex justify-end pr-[1.5vw]">
-        <div class="text-[1.2vw] font-extrabold text-[#181f28] mt-[2vh]">
+      <section class="bg-[#e5e76d] w-full h-[22vh] flex justify-end pr-[2.5vw]">
+        <div class="text-[1.8vw] font-extrabold text-[#181f28] mt-[2vh]">
           My Design Portfolio
         </div>
       </section>
@@ -54,12 +52,75 @@
       <img class="absolute w-[6vh] h-[6vh] top-[91.4vh] left-[1.2vw]" src="img/Polygon%201.svg" />
 
       <!-- ABOUT ME Section -->
-      <section id="about" class="w-full min-h-screen px-[10vw] py-[12vh] bg-[#181e27] text-[#e6e86e]">
-        <h2 class="text-[3vw] font-extrabold mb-6">About Me</h2>
-        <p class="text-[1.2vw] leading-relaxed max-w-[60ch]">
-          I'm a designer passionate about typography, UI/UX, and game design.
-          My work merges user needs with aesthetic intuition to deliver engaging and thoughtful experiences.
-        </p>
+      <section id="about" class="w-full min-h-screen bg-[#181e27] text-[#e6e86e] mb-[2vh]">
+
+        <h2 class="text-[5.5vw] font-extrabold text-right w-full mt-0 pt-0 leading-none  pr-[2vw]">About Me</h2>
+        
+        <div class="ml-[1vw] w-[178vh] h-[0.3vh] bg-[#e6e86e]"></div>
+        
+        <!-- Left line -->
+        <div class="absolute left-[1vw] top-[100vh] w-[0.3vh] h-[100vh] bg-[#e6e86e] z-10"></div>
+        
+        <!-- Right line -->
+        <div class="absolute left-[1vw] top-[100vh] w-[0.3vh] h-[100vh] bg-[#e6e86e] ml-[97vw] z-10"></div>
+        
+        <div class="pl-[1vw] pr-[1vw] grid grid-cols-[2fr_3fr] min-h-[89.5vh]">
+        <!-- 左侧图片 -->
+        <img class="p-[1vw] border-solid border-r-[0.2vw] border-[#e5e76d]" src="img/posta.png"></img>
+
+        <!-- 右侧区域 -->
+        <div class="grid grid-rows-[auto_auto_1fr] gap-4">
+
+          <!-- 1. 顶部：标题 + 链接 -->
+            <div class="flex border-solid border-b-[0.2vw] border-[#e5e76d]">
+              <!-- 左 -->
+              <div class="w-[33vh] h-[6vw] bg-[#e5e76d] text-[#181e27] font-extrabold px-4 pt-[3.2vw] text-[2vw]">
+                Introduction
+              </div>
+
+              <!-- 右 -->
+              <div class="w-auto h-[6vw] bg-[#181e27] text-[#e5e76d] font-extrabold  px-4 pt-[3.2vw] text-[2vw]">
+                https://Eric Gabriel Cheng Li
+              </div>
+            </div>
+
+          <!-- 2. 自我介绍 -->
+          <div class="text-[#fdfb91] text-[1.5vw] font-bold leading-relaxed px-4">
+            Greetings, I’m a Designer with a deep passion for typography and UI/UX design. My work range covers logo, layout, illustration, game design and branding. I highly prioritize work ethic, creativity and customer needs in my work.
+          </div>
+
+          <!-- 3. 技能图标区域（嵌套 Grid） -->
+          <div class="grid grid-cols-3 gap-4 px-4 pb-4">
+
+            <!-- 第一列：HTML, JS, CSS -->
+            <div class="grid gap-4 place-items-center">
+              <img src="html-icon.svg" />
+              <img src="js-icon.svg" />
+              <img src="css-icon.svg" />
+            </div>
+
+            <!-- 第二列：Ai Ae Ps 样式（上下连线） -->
+            <div class="grid grid-cols-2 grid-rows-2 gap-4 place-items-center">
+              <img src="ai.svg" />
+              <img src="ae.svg" />
+              <img src="xd.svg" />
+              <img src="ps.svg" />
+            </div>
+
+            <!-- 第三列：单排图标 -->
+            <div class="grid gap-4 place-items-center">
+              <img src="rotate-icon.svg" />
+              <img src="pixel-icon.svg" />
+              <img src="wave-icon.svg" />
+            </div>
+          </div>
+        </div>
+        </div>
+
+        
+        <!-- Bottom line -->
+        <div class="absolute left-[1vw] top-[100vh] w-[178vh] h-[0.3vh] bg-[#e6e86e] mt-[54.5vw] z-10"></div>
+
       </section>
 
     </main>
