@@ -38,7 +38,7 @@ export default function Home() {
         src="/img/Polygon%201.svg"
         width={500}
         height={500}
-        alt="My portrait"
+        alt="Polygon1"
         className="absolute w-[6vh] h-[6vh] top-[82vh] left-[1.2vw]"
       />
 
@@ -46,7 +46,7 @@ export default function Home() {
         src="/img/Polygon%201.svg"
         width={500}
         height={500}
-        alt="My portrait"
+        alt="Polygon2"
         className="absolute w-[6vh] h-[6vh] top-[86.7vh] left-[1.2vw]"
       />
 
@@ -54,7 +54,7 @@ export default function Home() {
         src="/img/Polygon%201.svg"
         width={500}
         height={500}
-        alt="My portrait"
+        alt="Polygon3"
         className="absolute w-[6vh] h-[6vh] top-[91.4vh] left-[1.2vw]"
       />
         
@@ -75,7 +75,14 @@ export default function Home() {
                 after:w-full after:h-[3.5vh] after:border-r-[0.4vw] after:border-solid after:border-[#181e27] after:z-0
                 before:content-[''] before:absolute before:bottom-0 before:right-0 before:translate-x-[1.38vh]
                 before:w-[2.4vh] before:h-[3.8vh] before:bg-[url('/img/line-end-dot.svg')] before:bg-contain before:bg-no-repeat before:z-[1]">
-                <img className="w-full h-full object-cover relative z-10" src="/img/posta.png" />
+                <Image
+                  src="/img/posta.png"
+                  width={500}
+                  height={800}
+                  alt="My portrait"
+                  className="w-full h-full object-cover relative z-10"
+                />
+                {/*<img className="w-full h-full object-cover relative z-10" src="/img/posta.png" />*/}
               </div>
 
               {/* 右文 */}
@@ -106,8 +113,8 @@ export default function Home() {
                     before:content-[''] before:absolute before:bottom-0 before:right-0 before:translate-x-[1.38vh]
                     before:w-[2.4vh] before:h-[3.8vh] before:bg-[url('/img/line-end-dot.svg')] before:bg-contain before:bg-no-repeat before:z-[1]">
                     <img className="w-[7.1vw] pt-[2vh]" src="/img/html5-icon.svg" />
-                    <img className="justify-self-end w-[7.1vw] -translate-y-[1vh]" src="/img/javascript-icon.svg" />
-                    <img className="w-[7.1vw] -translate-y-[2vh]" src="/img/css-icon.svg" />
+                    <img className="justify-self-end w-[7.1vw] -translate-y-[1vh] transform-gpu will-change-transform" src="/img/javascript-icon.svg" />
+                    <img className="w-[7.1vw] -translate-y-[2vh] transform-gpu will-change-transform" src="/img/css-icon.svg" />
                   </div>
 
                   <div className="relative grid grid-cols-2 min-h-[100%] border-r-[0.2vw] border-solid border-[#e5e76d] gap-y-[17vh] px-[2vh] place-items-center
